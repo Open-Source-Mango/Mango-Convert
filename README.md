@@ -1,6 +1,9 @@
 <h2 align="center"><u>Mango Convert</u></h2>
 
-![Mango Convert ](images/image.png)
+
+<p align="center">
+  <img src="images/image.png" width="300">
+</p>
 <h4 align="center"> Mango Convert  </h4>
 
 <p align="center">
