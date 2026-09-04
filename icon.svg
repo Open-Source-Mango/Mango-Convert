@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="mangoGrad" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#FFE033"/>
+      <stop offset="35%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#E63900"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#57D638"/>
+      <stop offset="100%" stop-color="#1E6E12"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE033"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <!-- Oryginalne elementy mango -->
+    <path d="M256 105 C256 65, 235 38, 220 28 C215 24, 208 28, 212 35 C222 55, 236 78, 238 105 Z" fill="#4A2A0C"/>
+    <path d="M245 95 C285 40, 365 35, 405 60 C410 64, 404 74, 396 74 C340 76, 282 115, 245 95 Z" fill="url(#leafGrad)"/>
+    <path d="M245 105 C345 105, 415 180, 415 285 C415 400, 335 475, 235 475 C135 475, 100 390, 100 285 C100 170, 160 105, 245 105 Z" fill="url(#mangoGrad)"/>
+    
+    <!-- Symbol konwersji wewnątrz mango -->
+    <g id="converter-symbol">
+      <!-- Ciemne tło koła dla kontrastu -->
+      <circle cx="257" cy="290" r="72" fill="#1a1a1a" stroke="#333333" stroke-width="4"/>
+      <circle cx="257" cy="290" r="58" fill="#111111" stroke="#444444" stroke-width="1.5"/>
+      
+      <!-- Strzałki konwersji -->
+      <g transform="translate(257, 290)">
+        <path d="M -32 -14 L 18 -14 L 10 -24 L 35 -6 L 10 12 L 18 2 L -32 2 Z" fill="url(#arrowGrad1)" />
+        <path d="M 32 14 L -18 14 L -10 24 L -35 6 L -10 -12 L -18 -2 L 32 -2 Z" fill="#57D638" />
+      </g>
+    </g>
+
+    <!-- Oryginalny odblask na mango -->
+    <path d="M155 175 C140 225, 135 275, 145 325 C138 305, 134 255, 144 195 C148 175, 153 160, 155 175 Z" fill="#FFFFFF" opacity="0.45"/>
+  </g>
+</svg>
