@@ -7,9 +7,9 @@
 <h4 align="center"> Mango Convert  </h4>
 
 <p align="center">
-    <img src="https://img.shields.io/github/stars/rakunek17/Mango-Cam?style=for-the-badge&color=orange">
-    <img src="https://img.shields.io/github/forks/rakunek17/Mango-Cam?style=for-the-badge&color=purple">
-    <img src="https://img.shields.io/github/issues/rakunek17/Mango-Cam?style=for-the-badge&color=red">
+    <img src="https://img.shields.io/github/stars/Open-Source-Mango/Mango-Convert?style=for-the-badge&color=orange">
+    <img src="https://img.shields.io/github/forks/Open-Source-Mango/Mango-Convert?style=for-the-badge&color=purple">
+    <img src="https://img.shields.io/github/issues/Open-Source-Mango/Mango-Convert?style=for-the-badge&color=red">
 <br>
     <img src="https://img.shields.io/badge/Open%20Source-Yes-orange?style=flat-square">
     <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
