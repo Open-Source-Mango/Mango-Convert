@@ -235,7 +235,6 @@
       filter: grayscale(0.6);
     }
 
-    /* Pasek postępu */
     .progress-container {
       display: none;
       width: 100%;
@@ -297,10 +296,10 @@
     <div class="input-group" id="gpu-group" style="display: none;">
       <label>Akceleracja kodowania wideo:</label>
       <select id="encoder-select">
-        <option value="cpu">CPU - x264 (Visually Lossless, CRF 18, wysoka kompatybilność)</option>
-        <option value="nvenc">NVIDIA NVENC (Akceleracja sprzętowa GPU, CQP 18)</option>
-        <option value="amf">AMD AMF (Karty Radeon, CQP 18)</option>
-        <option value="qsv">Intel QSV (Intel QuickSync, CQP 18)</option>
+        <option value="nvenc">NVIDIA NVENC (Akceleracja sprzętowa GPU)</option>
+        <option value="cpu">CPU - x264 (Wysoka kompatybilność procesora)</option>
+        <option value="amf">AMD AMF (Karty Radeon)</option>
+        <option value="qsv">Intel QSV (Intel QuickSync)</option>
         <option value="mac">Apple VideoToolbox (Mac Silicon M-Series)</option>
       </select>
     </div>
