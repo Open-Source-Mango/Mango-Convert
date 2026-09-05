@@ -1,7 +1,7 @@
 {
   "name": "mango-convert",
   "version": "1.0.0",
-  "description": "Mango Convert",
+  "description": "Mango Convert - konwerter wideo, audio i grafiki",
   "author": "Mango <inbox@rakunek.com>",
   "main": "main.js",
   "scripts": {
@@ -15,12 +15,12 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "electron": "^32.3.3",
-    "electron-builder": "^24.13.0"
+    "electron": "^32.0.0",
+    "electron-builder": "^24.13.3"
   },
   "build": {
     "appId": "com.mango.convert",
-    "productName": "Mango Convert",
+    "productName": "Mango-Convert",
     "directories": {
       "output": "dist"
     },
@@ -36,11 +36,19 @@
     },
     "linux": {
       "target": [
-        "AppImage",
-        "rpm"
+        "AppImage"
       ],
+      "executableName": "mango-convert",
       "category": "AudioVideo",
-      "icon": "icon.png"
+      "icon": "icon.png",
+      "maintainer": "Mango <inbox@rakunek.com>"
+    },
+    "rpm": {
+      "packageName": "mango-convert",
+      "fpm": [
+        "--rpm-compression",
+        "none"
+      ]
     },
     "nsis": {
       "oneClick": false,
