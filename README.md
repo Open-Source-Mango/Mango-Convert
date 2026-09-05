@@ -20,18 +20,22 @@
 Mango Convert służy do konwertowania zdjęć, filmów, dzwieków, muzyki. Działa on na Windows, Linux, MacOS. 
 
 ##### Obsługiwane formaty:
-###### Filmy:
-- MP4
-- 
 
-### [+] Installation
- - `sudo chmod +x mangocam.sh`
- - `bash mangocam.sh`
+|FILMY | Muzyka/Audio | Zdjęcia/Grafiki |
+| MP4 | MP3 | PNG |
+| MKV | WAV | JPG |
+| AVI | FLAC | JPEG |
+| MOV | AAC | WEBP |
+| WEBM | OGG | BMP |
+| FLV | M4A | TIFF |
+| TS |  WMA | SVG |
+| M4V | AIFF |  ICO |
+|  -  |  -   | GIF |
 
-### [+] Usage
-`./mangocam.sh`
 
-### [+] Requirements
+### Instalacja:
+
+### Wymagania:
  - Android Device
  - ADB
  - Developer Options: ON
