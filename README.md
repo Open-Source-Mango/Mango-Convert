@@ -22,7 +22,7 @@ Mango Convert służy do konwertowania zdjęć, filmów, dzwieków, muzyki. Dzia
 ##### Obsługiwane formaty:
 
 |FILMY | Muzyka/Audio | Zdjęcia/Grafiki |
-|| --- | --- | --- |
+| --- | --- | --- |
 | MP4 | MP3 | PNG |
 | MKV | WAV | JPG |
 | AVI | FLAC | JPEG |
