@@ -28,11 +28,11 @@
       "**/*",
       "!dist/*"
     ],
-    "win": {
-      "target": [
-        "nsis"
-      ],
-      "icon": "icon.ico"
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "icon": "icon.ico"
     },
     "linux": {
       "target": [
